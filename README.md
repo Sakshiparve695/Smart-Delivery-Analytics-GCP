@@ -18,8 +18,9 @@ This project is an end-to-end data pipeline that processes delivery data using P
 1. API generates delivery data
 2. Data stored in MySQL database
 3. ETL pipeline processes data
-4. Transformed data loaded into BigQuery
-5. Analytical queries performed for insights
+4. Added PySpark pipeline to simulate large-scale ETL processing
+5. Transformed data loaded into BigQuery
+6. Analytical queries performed for insights
 
 ---
 
