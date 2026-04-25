@@ -18,7 +18,7 @@ This system solves that by:
 
 ---
 
-## ## 🏗️ Architecture
+## 🏗️ Architecture
 
 ```
 Client / API Testing Tool
@@ -100,7 +100,7 @@ Google BigQuery (Analytics Layer)
 
 ## 🌐 Deployment
 
-API deployed on Render: <ADD YOUR LINK HERE>
+API deployed on Render:
 
 ---
 
