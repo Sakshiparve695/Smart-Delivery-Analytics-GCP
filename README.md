@@ -72,6 +72,7 @@ Google BigQuery (Analytics Layer)
 2. ETL script processes and cleans data
 3. Data is stored in **processed and fact tables**
 4. Fact data is analyzed using **BigQuery**
+5. Implemented batch ETL processing to transform and load delivery data into analytical tables.
 
 ---
 
@@ -88,6 +89,7 @@ Google BigQuery (Analytics Layer)
 * Agent performance tracking
 * Average delivery duration
 * Route efficiency insights
+* Enabled analysis of delivery performance and delay patterns
 
 ---
 
@@ -100,7 +102,7 @@ Google BigQuery (Analytics Layer)
 
 ## 🌐 Deployment
 
-API deployed on Render:
+API deployed on Render
 
 ---
 
