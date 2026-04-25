@@ -18,15 +18,30 @@ This system solves that by:
 
 ---
 
-## 🏗️ Architecture
+## ## 🏗️ Architecture
 
-Client → Flask API → MySQL (raw_deliveries)
-               ↓
-              ETL Pipeline
-               ↓
-processed_deliveries → fact_deliveries
-               ↓
-            BigQuery (Analytics)
+```
+Client / API Testing Tool
+        │
+        ▼
+Flask API (Data Ingestion Layer)
+        │
+        ▼
+MySQL - Raw Layer (raw_deliveries)
+        │
+        ▼
+ETL Pipeline (Python / PySpark)
+        │
+        ▼
+Processed Layer (processed_deliveries)
+        │
+        ▼
+Fact Table (fact_deliveries)
+        │
+        ▼
+Google BigQuery (Analytics Layer)
+```
+
 
 ---
 
