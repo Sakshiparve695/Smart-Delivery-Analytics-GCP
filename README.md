@@ -1,128 +1,114 @@
-# 🚚 Smart Delivery Analytics System (GCP + Data Engineering + Analytics)
+# 🚚 Smart Delivery Data Pipeline (GCP + ETL + Analytics)
 
 ## 🚀 Overview
 
-The **Smart Delivery Analytics System** is a data engineering and analytics project designed to optimize delivery operations using cloud-based tools.
-
-It focuses on processing delivery data, extracting insights, and enabling better decision-making for logistics and supply chain systems.
+This project implements an end-to-end **data engineering pipeline** for optimizing delivery operations. It ingests delivery data via REST APIs, processes it through ETL pipelines, and enables analytics using SQL and Google BigQuery.
 
 ---
 
 ## 🎯 Problem Statement
 
-Delivery systems generate large volumes of data (orders, routes, delivery times), but this data is often underutilized.
+Logistics systems generate large volumes of delivery data (orders, routes, timings), but this data is often underutilized.
 
-This project solves that by:
+This system solves that by:
 
-* Processing raw delivery data into **structured datasets**
-* Providing **analytics for delivery performance**
-* Leveraging **cloud technologies (GCP)** for scalable data workflows
-
----
-
-## 💡 Key Features
-
-* ☁️ **Google Cloud Platform (GCP)** integration
-* 🔄 **Data Pipeline (ETL)** for transforming delivery data
-* 📊 **Analytics on delivery performance and trends**
-* 🧠 Insight generation for optimization
-* 📸 Screenshots and outputs included
+* Building a structured data pipeline (raw → processed → fact)
+* Enabling analytics on delivery performance
+* Supporting route optimization using algorithms
 
 ---
 
-## 🧠 Analytics & Insights
+## 🏗️ Architecture
 
-This project focuses on extracting meaningful insights such as:
-
-* Delivery time patterns across locations
-* Impact of distance on delivery efficiency
-* Identification of delays and bottlenecks
-
-👉 Helps improve **route planning and delivery performance**
-
----
-
-## 🏗️ System Architecture
-
-### 🔁 Workflow
-
-1. Raw delivery data is collected
-2. ETL pipeline processes and cleans the data
-3. Data is analyzed to extract insights
-4. Results can be used for optimization and reporting
+Client → Flask API → MySQL (raw_deliveries)
+               ↓
+              ETL Pipeline
+               ↓
+processed_deliveries → fact_deliveries
+               ↓
+            BigQuery (Analytics)
 
 ---
 
-## 📂 Project Structure
+## ⚙️ Tech Stack
 
-```bash
-app/
- ├── main.py                # Core logic / processing (if applicable)
-
-etl/
- ├── etl.py                # Data pipeline
-
-assets/
- ├── screenshots
-
-Dockerfile (if used)
-requirements.txt
-README.md
-```
+* Python (Flask)
+* MySQL (Data Storage)
+* SQL (Data Processing)
+* Google BigQuery (Analytics)
+* PySpark (ETL experimentation)
+* Render (Deployment)
 
 ---
 
-## ☁️ GCP Usage
+## 🔌 API Endpoints
 
-* Services Used: *(mention if you used BigQuery / Cloud Storage / etc.)*
-* Purpose: Scalable data processing and storage
-
----
-
-## ▶️ Run Locally
-
-```bash
-pip install -r requirements.txt
-python main.py
-```
+* `POST /add-delivery` → Ingest delivery data into raw layer
+* `POST /optimize-route` → Compute shortest route using Dijkstra’s Algorithm
+* `GET /deliveries` → Fetch delivery records
+* `POST /update-status` → Update delivery status
+* `GET /analytics/*` → Analytical insights
 
 ---
 
-## 📸 Screenshots
+## 🔄 Data Pipeline
 
-* Data processing outputs
-* Analytics results
-* Cloud workflow previews
+1. API ingests delivery data into **raw layer**
+2. ETL script processes and cleans data
+3. Data is stored in **processed and fact tables**
+4. Fact data is analyzed using **BigQuery**
 
 ---
 
-## 🌍 Future Enhancements
+## 🚀 Advanced Feature
 
-* 📈 Advanced analytics and visualization
-* 🤖 Machine learning for delivery prediction
-* 🌐 Dashboard for real-time tracking
-* 🔄 Automation of pipelines
+* Implemented **Dijkstra’s Algorithm** for route optimization
+* Cost function considers **distance + traffic weight**
+
+---
+
+## 📊 Analytics & Insights
+
+* Delivery delay percentage
+* Agent performance tracking
+* Average delivery duration
+* Route efficiency insights
+
+---
+
+## ☁️ GCP Integration
+
+* Loaded processed data into **BigQuery**
+* Performed SQL-based analytics on delivery performance
+
+---
+
+## 🌐 Deployment
+
+API deployed on Render: <ADD YOUR LINK HERE>
+
+---
+
+## 📈 Future Improvements
+
+* Pipeline orchestration (Airflow)
+* Real-time streaming (Kafka)
+* Dashboard (Streamlit / React)
+* Automated scheduling for ETL jobs
 
 ---
 
 ## 🎯 Why This Project Stands Out
 
-* Demonstrates **data engineering + cloud integration (GCP)**
-* Shows ability to handle **real-world datasets**
-* Focuses on **analytics-driven decision making**
-
-👉 Strong fit for:
-
-* Data Engineer roles
-* Backend / Analytics roles
+* End-to-end data pipeline implementation
+* Combines backend + data engineering + analytics
+* Includes algorithmic optimization (Dijkstra)
+* Demonstrates real-world system design
 
 ---
 
 ## 👩‍💻 Author
 
-**Sakshi Parve**
-Aspiring Backend & Data Engineer
-Passionate about data, cloud, and problem-solving
-
----
+Sakshi Parve
+Aspiring Data Engineer | Backend Developer
 
