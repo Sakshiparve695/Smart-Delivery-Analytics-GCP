@@ -1,1 +1,14 @@
-
+services:
+  airflow:
+    image: apache/airflow:2.9.3
+    container_name: airflow_project
+    ports:
+      - "8080:8080"
+    environment:
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - GOOGLE_APPLICATION_CREDENTIALS=/opt/airflow/key.json
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ../:/opt/project
+      - ./delivery-analytics-gcp-c2bcb1b8a70c.json:/opt/airflow/key.json
+    command: standalone
