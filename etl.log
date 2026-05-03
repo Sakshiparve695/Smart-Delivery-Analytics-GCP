@@ -1,0 +1,1305 @@
+2026-05-02 17:53:57,217 - INFO - ETL started
+2026-05-02 17:53:57,692 - INFO - package: mysql.connector.plugins
+2026-05-02 17:53:57,692 - INFO - plugin_name: caching_sha2_password
+2026-05-02 17:53:57,692 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-02 17:53:57,710 - INFO - package: mysql.connector.plugins
+2026-05-02 17:53:57,710 - INFO - plugin_name: mysql_native_password
+2026-05-02 17:53:57,712 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-05-02 17:53:57,956 - ERROR - ETL failed: 1054 (42S22): Unknown column 'processed_flag' in 'where clause'
+2026-05-02 17:56:50,387 - INFO - ETL started
+2026-05-02 17:56:50,608 - INFO - package: mysql.connector.plugins
+2026-05-02 17:56:50,608 - INFO - plugin_name: caching_sha2_password
+2026-05-02 17:56:50,609 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-02 17:56:50,610 - INFO - package: mysql.connector.plugins
+2026-05-02 17:56:50,610 - INFO - plugin_name: mysql_native_password
+2026-05-02 17:56:50,611 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-05-02 17:56:50,619 - ERROR - ETL failed: 1054 (42S22): Unknown column 'processed_flag' in 'where clause'
+2026-05-02 18:09:12,900 - INFO - ETL started
+2026-05-02 18:09:13,156 - INFO - package: mysql.connector.plugins
+2026-05-02 18:09:13,156 - INFO - plugin_name: caching_sha2_password
+2026-05-02 18:09:13,156 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-02 18:09:13,157 - INFO - package: mysql.connector.plugins
+2026-05-02 18:09:13,158 - INFO - plugin_name: mysql_native_password
+2026-05-02 18:09:13,159 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-05-02 18:09:13,168 - INFO - Fetched 18 new records
+2026-05-02 18:09:13,299 - INFO - Successfully processed 18 records
+2026-05-02 18:16:44,914 - INFO - ETL started
+2026-05-02 18:16:45,243 - INFO - package: mysql.connector.plugins
+2026-05-02 18:16:45,243 - INFO - plugin_name: caching_sha2_password
+2026-05-02 18:16:45,243 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-02 18:16:45,245 - INFO - package: mysql.connector.plugins
+2026-05-02 18:16:45,245 - INFO - plugin_name: mysql_native_password
+2026-05-02 18:16:45,246 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-05-02 18:16:45,257 - INFO - Fetched 0 new records
+2026-05-02 18:16:45,257 - ERROR - ETL failed: 'NoneType' object is not subscriptable
+2026-05-02 18:16:49,072 - INFO - ETL started
+2026-05-02 18:16:49,300 - INFO - package: mysql.connector.plugins
+2026-05-02 18:16:49,301 - INFO - plugin_name: caching_sha2_password
+2026-05-02 18:16:49,301 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-02 18:16:49,302 - INFO - package: mysql.connector.plugins
+2026-05-02 18:16:49,302 - INFO - plugin_name: mysql_native_password
+2026-05-02 18:16:49,303 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-05-02 18:16:49,310 - INFO - Fetched 0 new records
+2026-05-02 18:16:49,311 - ERROR - ETL failed: 'NoneType' object is not subscriptable
+2026-05-02 19:03:02,809 - INFO - ETL started
+2026-05-02 19:03:03,261 - INFO - package: mysql.connector.plugins
+2026-05-02 19:03:03,262 - INFO - plugin_name: caching_sha2_password
+2026-05-02 19:03:03,262 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-02 19:03:03,266 - INFO - package: mysql.connector.plugins
+2026-05-02 19:03:03,266 - INFO - plugin_name: mysql_native_password
+2026-05-02 19:03:03,268 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-05-02 19:03:03,393 - INFO - Fetched 0 new records
+2026-05-02 19:03:03,393 - INFO - No new data to process
+2026-05-02 19:29:40,954 - INFO - ETL started
+2026-05-02 19:29:41,244 - INFO - package: mysql.connector.plugins
+2026-05-02 19:29:41,244 - INFO - plugin_name: caching_sha2_password
+2026-05-02 19:29:41,245 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-02 19:29:41,246 - INFO - package: mysql.connector.plugins
+2026-05-02 19:29:41,293 - INFO - plugin_name: mysql_native_password
+2026-05-02 19:29:41,294 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-05-02 19:29:41,326 - INFO - Fetched 1 new records
+2026-05-02 19:29:41,327 - INFO - Processing batch 1 with 1 records
+2026-05-02 19:29:41,388 - INFO - Successfully processed 1 records
+2026-05-02 19:30:41,391 - INFO - ETL started
+2026-05-02 19:30:41,637 - INFO - Fetched 0 new records
+2026-05-02 19:30:41,637 - INFO - No new data to process
+2026-05-02 19:31:41,641 - INFO - ETL started
+2026-05-02 19:31:42,208 - INFO - Fetched 0 new records
+2026-05-02 19:31:42,208 - INFO - No new data to process
+2026-05-02 19:32:42,213 - INFO - ETL started
+2026-05-02 19:32:42,441 - INFO - Fetched 0 new records
+2026-05-02 19:32:42,441 - INFO - No new data to process
+2026-05-02 19:33:42,443 - INFO - ETL started
+2026-05-02 19:33:42,749 - INFO - Fetched 0 new records
+2026-05-02 19:33:42,750 - INFO - No new data to process
+2026-05-02 19:34:42,756 - INFO - ETL started
+2026-05-02 19:34:42,944 - INFO - Fetched 0 new records
+2026-05-02 19:34:42,944 - INFO - No new data to process
+2026-05-02 19:35:42,947 - INFO - ETL started
+2026-05-02 19:35:43,213 - INFO - Fetched 0 new records
+2026-05-02 19:35:43,213 - INFO - No new data to process
+2026-05-02 19:36:43,245 - INFO - ETL started
+2026-05-02 19:36:43,564 - INFO - Fetched 0 new records
+2026-05-02 19:36:43,564 - INFO - No new data to process
+2026-05-02 19:37:43,567 - INFO - ETL started
+2026-05-02 19:37:43,818 - INFO - Fetched 0 new records
+2026-05-02 19:37:43,818 - INFO - No new data to process
+2026-05-02 19:38:43,820 - INFO - ETL started
+2026-05-02 19:38:44,042 - INFO - Fetched 0 new records
+2026-05-02 19:38:44,042 - INFO - No new data to process
+2026-05-02 19:39:44,045 - INFO - ETL started
+2026-05-02 19:39:44,348 - INFO - Fetched 0 new records
+2026-05-02 19:39:44,348 - INFO - No new data to process
+2026-05-02 19:40:44,353 - INFO - ETL started
+2026-05-02 19:40:44,463 - INFO - Fetched 0 new records
+2026-05-02 19:40:44,463 - INFO - No new data to process
+2026-05-02 19:41:44,465 - INFO - ETL started
+2026-05-02 19:41:44,604 - INFO - Fetched 0 new records
+2026-05-02 19:41:44,604 - INFO - No new data to process
+2026-05-02 19:42:44,606 - INFO - ETL started
+2026-05-02 19:42:44,782 - INFO - Fetched 0 new records
+2026-05-02 19:42:44,783 - INFO - No new data to process
+2026-05-02 19:43:44,787 - INFO - ETL started
+2026-05-02 19:43:44,912 - INFO - Fetched 0 new records
+2026-05-02 19:43:44,913 - INFO - No new data to process
+2026-05-02 19:44:44,915 - INFO - ETL started
+2026-05-02 19:44:45,033 - INFO - Fetched 0 new records
+2026-05-02 19:44:45,033 - INFO - No new data to process
+2026-05-02 19:45:45,035 - INFO - ETL started
+2026-05-02 19:45:45,145 - INFO - Fetched 0 new records
+2026-05-02 19:45:45,145 - INFO - No new data to process
+2026-05-02 19:46:45,147 - INFO - ETL started
+2026-05-02 19:46:45,297 - INFO - Fetched 0 new records
+2026-05-02 19:46:45,297 - INFO - No new data to process
+2026-05-02 19:47:45,299 - INFO - ETL started
+2026-05-02 19:47:45,422 - INFO - Fetched 0 new records
+2026-05-02 19:47:45,422 - INFO - No new data to process
+2026-05-02 19:48:45,423 - INFO - ETL started
+2026-05-02 19:48:45,583 - INFO - Fetched 0 new records
+2026-05-02 19:48:45,583 - INFO - No new data to process
+2026-05-02 19:49:45,585 - INFO - ETL started
+2026-05-02 19:49:45,698 - INFO - Fetched 0 new records
+2026-05-02 19:49:45,699 - INFO - No new data to process
+2026-05-02 19:50:45,700 - INFO - ETL started
+2026-05-02 19:50:45,879 - INFO - Fetched 0 new records
+2026-05-02 19:50:45,879 - INFO - No new data to process
+2026-05-02 19:51:45,882 - INFO - ETL started
+2026-05-02 19:51:45,991 - INFO - Fetched 0 new records
+2026-05-02 19:51:45,991 - INFO - No new data to process
+2026-05-02 19:52:45,993 - INFO - ETL started
+2026-05-02 19:52:46,191 - INFO - Fetched 0 new records
+2026-05-02 19:52:46,191 - INFO - No new data to process
+2026-05-02 19:53:46,192 - INFO - ETL started
+2026-05-02 19:53:46,446 - INFO - Fetched 0 new records
+2026-05-02 19:53:46,446 - INFO - No new data to process
+2026-05-02 19:54:46,448 - INFO - ETL started
+2026-05-02 19:54:46,675 - INFO - Fetched 0 new records
+2026-05-02 19:54:46,675 - INFO - No new data to process
+2026-05-02 21:54:22,281 - INFO - ETL started
+2026-05-02 21:54:22,678 - INFO - package: mysql.connector.plugins
+2026-05-02 21:54:22,679 - INFO - plugin_name: caching_sha2_password
+2026-05-02 21:54:22,679 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-02 21:54:22,685 - INFO - package: mysql.connector.plugins
+2026-05-02 21:54:22,685 - INFO - plugin_name: mysql_native_password
+2026-05-02 21:54:22,688 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-05-02 21:54:22,797 - INFO - Fetched 1 new records
+2026-05-02 21:54:22,797 - INFO - Processing batch 1 with 1 records
+2026-05-02 21:54:22,844 - ERROR - ETL failed: [NOT_COLUMN_OR_STR] Argument `col` should be a Column or str, got int.
+2026-05-02 21:55:24,092 - INFO - ETL started
+2026-05-02 21:55:24,501 - INFO - Fetched 1 new records
+2026-05-02 21:55:24,501 - INFO - Processing batch 1 with 1 records
+2026-05-02 21:55:24,507 - ERROR - ETL failed: [NOT_COLUMN_OR_STR] Argument `col` should be a Column or str, got int.
+2026-05-02 21:56:15,133 - INFO - Closing down clientserver connection
+2026-05-02 22:24:40,292 - INFO - ETL started
+2026-05-02 22:24:41,029 - INFO - package: mysql.connector.plugins
+2026-05-02 22:24:41,030 - INFO - plugin_name: caching_sha2_password
+2026-05-02 22:24:41,030 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-02 22:24:41,033 - INFO - package: mysql.connector.plugins
+2026-05-02 22:24:41,033 - INFO - plugin_name: mysql_native_password
+2026-05-02 22:24:41,035 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-05-02 22:24:41,140 - INFO - Fetched 1 new records
+2026-05-02 22:24:50,364 - ERROR - ETL failed: An error occurred while calling o64.showString.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 0.0 failed 1 times, most recent failure: Lost task 0.0 in stage 0.0 (TID 0) (host.docker.internal executor driver): java.io.IOException: Cannot run program "python3": CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:247)
+	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:154)
+	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:158)
+	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:309)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:72)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:180)
+	at org.apache.spark.scheduler.Task.run(Task.scala:147)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$5(Executor.scala:716)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:86)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:83)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:97)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:719)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 34 more
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$3(DAGScheduler.scala:3122)
+	at scala.Option.getOrElse(Option.scala:201)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:3122)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:3114)
+	at scala.collection.immutable.List.foreach(List.scala:323)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:3114)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1303)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1303)
+	at scala.Option.foreach(Option.scala:437)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1303)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:3397)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:3328)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:3317)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:50)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:1017)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2496)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2517)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2536)
+	at org.apache.spark.sql.execution.SparkPlan.executeTake(SparkPlan.scala:544)
+	at org.apache.spark.sql.execution.SparkPlan.executeTake(SparkPlan.scala:497)
+	at org.apache.spark.sql.execution.CollectLimitExec.executeCollect(limit.scala:58)
+	at org.apache.spark.sql.classic.Dataset.collectFromPlan(Dataset.scala:2275)
+	at org.apache.spark.sql.classic.Dataset.$anonfun$head$1(Dataset.scala:1401)
+	at org.apache.spark.sql.classic.Dataset.$anonfun$withAction$2(Dataset.scala:2265)
+	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:717)
+	at org.apache.spark.sql.classic.Dataset.$anonfun$withAction$1(Dataset.scala:2263)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$8(SQLExecution.scala:177)
+	at org.apache.spark.sql.execution.SQLExecution$.withSessionTagsApplied(SQLExecution.scala:285)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$7(SQLExecution.scala:139)
+	at org.apache.spark.JobArtifactSet$.withActiveJobArtifactState(JobArtifactSet.scala:94)
+	at org.apache.spark.sql.artifact.ArtifactManager.$anonfun$withResources$1(ArtifactManager.scala:112)
+	at org.apache.spark.sql.artifact.ArtifactManager.withClassLoaderIfNeeded(ArtifactManager.scala:106)
+	at org.apache.spark.sql.artifact.ArtifactManager.withResources(ArtifactManager.scala:111)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$6(SQLExecution.scala:139)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:308)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$1(SQLExecution.scala:138)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId0(SQLExecution.scala:92)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:250)
+	at org.apache.spark.sql.classic.Dataset.withAction(Dataset.scala:2263)
+	at org.apache.spark.sql.classic.Dataset.head(Dataset.scala:1401)
+	at org.apache.spark.sql.Dataset.take(Dataset.scala:2814)
+	at org.apache.spark.sql.classic.Dataset.getRows(Dataset.scala:338)
+	at org.apache.spark.sql.classic.Dataset.showString(Dataset.scala:374)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:76)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.io.IOException: Cannot run program "python3": CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:247)
+	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:154)
+	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:158)
+	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:309)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:72)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:180)
+	at org.apache.spark.scheduler.Task.run(Task.scala:147)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$5(Executor.scala:716)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:86)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:83)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:97)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:719)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	... 1 more
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 34 more
+
+2026-05-02 22:24:50,434 - INFO - Closing down clientserver connection
+2026-05-02 22:33:00,271 - INFO - ETL started
+2026-05-02 22:33:00,780 - INFO - package: mysql.connector.plugins
+2026-05-02 22:33:00,781 - INFO - plugin_name: caching_sha2_password
+2026-05-02 22:33:00,781 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-02 22:33:00,782 - INFO - package: mysql.connector.plugins
+2026-05-02 22:33:00,782 - INFO - plugin_name: mysql_native_password
+2026-05-02 22:33:00,784 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-05-02 22:33:00,798 - INFO - Fetched 2 new records
+2026-05-02 22:33:12,587 - ERROR - ETL failed: An error occurred while calling o64.showString.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 0.0 failed 1 times, most recent failure: Lost task 0.0 in stage 0.0 (TID 0) (host.docker.internal executor driver): java.io.IOException: Cannot run program "python3": CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:247)
+	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:154)
+	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:158)
+	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:309)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:72)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:180)
+	at org.apache.spark.scheduler.Task.run(Task.scala:147)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$5(Executor.scala:716)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:86)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:83)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:97)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:719)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 34 more
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$3(DAGScheduler.scala:3122)
+	at scala.Option.getOrElse(Option.scala:201)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:3122)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:3114)
+	at scala.collection.immutable.List.foreach(List.scala:323)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:3114)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1303)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1303)
+	at scala.Option.foreach(Option.scala:437)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1303)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:3397)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:3328)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:3317)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:50)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:1017)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2496)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2517)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2536)
+	at org.apache.spark.sql.execution.SparkPlan.executeTake(SparkPlan.scala:544)
+	at org.apache.spark.sql.execution.SparkPlan.executeTake(SparkPlan.scala:497)
+	at org.apache.spark.sql.execution.CollectLimitExec.executeCollect(limit.scala:58)
+	at org.apache.spark.sql.classic.Dataset.collectFromPlan(Dataset.scala:2275)
+	at org.apache.spark.sql.classic.Dataset.$anonfun$head$1(Dataset.scala:1401)
+	at org.apache.spark.sql.classic.Dataset.$anonfun$withAction$2(Dataset.scala:2265)
+	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:717)
+	at org.apache.spark.sql.classic.Dataset.$anonfun$withAction$1(Dataset.scala:2263)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$8(SQLExecution.scala:177)
+	at org.apache.spark.sql.execution.SQLExecution$.withSessionTagsApplied(SQLExecution.scala:285)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$7(SQLExecution.scala:139)
+	at org.apache.spark.JobArtifactSet$.withActiveJobArtifactState(JobArtifactSet.scala:94)
+	at org.apache.spark.sql.artifact.ArtifactManager.$anonfun$withResources$1(ArtifactManager.scala:112)
+	at org.apache.spark.sql.artifact.ArtifactManager.withClassLoaderIfNeeded(ArtifactManager.scala:106)
+	at org.apache.spark.sql.artifact.ArtifactManager.withResources(ArtifactManager.scala:111)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$6(SQLExecution.scala:139)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:308)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$1(SQLExecution.scala:138)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId0(SQLExecution.scala:92)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:250)
+	at org.apache.spark.sql.classic.Dataset.withAction(Dataset.scala:2263)
+	at org.apache.spark.sql.classic.Dataset.head(Dataset.scala:1401)
+	at org.apache.spark.sql.Dataset.take(Dataset.scala:2814)
+	at org.apache.spark.sql.classic.Dataset.getRows(Dataset.scala:338)
+	at org.apache.spark.sql.classic.Dataset.showString(Dataset.scala:374)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:76)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.io.IOException: Cannot run program "python3": CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:247)
+	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:154)
+	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:158)
+	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:309)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:72)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:180)
+	at org.apache.spark.scheduler.Task.run(Task.scala:147)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$5(Executor.scala:716)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:86)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:83)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:97)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:719)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	... 1 more
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 34 more
+
+2026-05-02 22:33:12,638 - INFO - Closing down clientserver connection
+2026-05-02 23:00:34,654 - INFO - ETL started
+2026-05-02 23:00:35,445 - INFO - package: mysql.connector.plugins
+2026-05-02 23:00:35,446 - INFO - plugin_name: caching_sha2_password
+2026-05-02 23:00:35,446 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-02 23:00:35,448 - INFO - package: mysql.connector.plugins
+2026-05-02 23:00:35,448 - INFO - plugin_name: mysql_native_password
+2026-05-02 23:00:35,450 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-05-02 23:00:35,467 - INFO - Fetched 3 new records
+2026-05-02 23:00:45,543 - ERROR - ETL failed: An error occurred while calling o64.showString.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 0.0 failed 1 times, most recent failure: Lost task 0.0 in stage 0.0 (TID 0) (host.docker.internal executor driver): java.io.IOException: Cannot run program "python3": CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:247)
+	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:154)
+	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:158)
+	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:309)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:72)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:180)
+	at org.apache.spark.scheduler.Task.run(Task.scala:147)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$5(Executor.scala:716)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:86)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:83)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:97)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:719)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 34 more
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$3(DAGScheduler.scala:3122)
+	at scala.Option.getOrElse(Option.scala:201)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:3122)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:3114)
+	at scala.collection.immutable.List.foreach(List.scala:323)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:3114)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1303)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1303)
+	at scala.Option.foreach(Option.scala:437)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1303)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:3397)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:3328)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:3317)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:50)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:1017)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2496)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2517)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2536)
+	at org.apache.spark.sql.execution.SparkPlan.executeTake(SparkPlan.scala:544)
+	at org.apache.spark.sql.execution.SparkPlan.executeTake(SparkPlan.scala:497)
+	at org.apache.spark.sql.execution.CollectLimitExec.executeCollect(limit.scala:58)
+	at org.apache.spark.sql.classic.Dataset.collectFromPlan(Dataset.scala:2275)
+	at org.apache.spark.sql.classic.Dataset.$anonfun$head$1(Dataset.scala:1401)
+	at org.apache.spark.sql.classic.Dataset.$anonfun$withAction$2(Dataset.scala:2265)
+	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:717)
+	at org.apache.spark.sql.classic.Dataset.$anonfun$withAction$1(Dataset.scala:2263)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$8(SQLExecution.scala:177)
+	at org.apache.spark.sql.execution.SQLExecution$.withSessionTagsApplied(SQLExecution.scala:285)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$7(SQLExecution.scala:139)
+	at org.apache.spark.JobArtifactSet$.withActiveJobArtifactState(JobArtifactSet.scala:94)
+	at org.apache.spark.sql.artifact.ArtifactManager.$anonfun$withResources$1(ArtifactManager.scala:112)
+	at org.apache.spark.sql.artifact.ArtifactManager.withClassLoaderIfNeeded(ArtifactManager.scala:106)
+	at org.apache.spark.sql.artifact.ArtifactManager.withResources(ArtifactManager.scala:111)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$6(SQLExecution.scala:139)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:308)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$1(SQLExecution.scala:138)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId0(SQLExecution.scala:92)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:250)
+	at org.apache.spark.sql.classic.Dataset.withAction(Dataset.scala:2263)
+	at org.apache.spark.sql.classic.Dataset.head(Dataset.scala:1401)
+	at org.apache.spark.sql.Dataset.take(Dataset.scala:2814)
+	at org.apache.spark.sql.classic.Dataset.getRows(Dataset.scala:338)
+	at org.apache.spark.sql.classic.Dataset.showString(Dataset.scala:374)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:76)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.io.IOException: Cannot run program "python3": CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:247)
+	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:154)
+	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:158)
+	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:309)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:72)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:180)
+	at org.apache.spark.scheduler.Task.run(Task.scala:147)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$5(Executor.scala:716)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:86)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:83)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:97)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:719)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	... 1 more
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 34 more
+
+2026-05-02 23:00:46,302 - INFO - Closing down clientserver connection
+2026-05-02 23:20:02,520 - INFO - ETL started
+2026-05-02 23:20:03,463 - INFO - package: mysql.connector.plugins
+2026-05-02 23:20:03,463 - INFO - plugin_name: caching_sha2_password
+2026-05-02 23:20:03,464 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-02 23:20:03,495 - INFO - package: mysql.connector.plugins
+2026-05-02 23:20:03,495 - INFO - plugin_name: mysql_native_password
+2026-05-02 23:20:03,498 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-05-02 23:20:03,522 - INFO - Fetched 22 new records
+2026-05-02 23:20:13,317 - ERROR - ETL failed: An error occurred while calling o64.showString.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 0.0 failed 1 times, most recent failure: Lost task 0.0 in stage 0.0 (TID 0) (host.docker.internal executor driver): java.io.IOException: Cannot run program "python3": CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:247)
+	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:154)
+	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:158)
+	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:309)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:72)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:180)
+	at org.apache.spark.scheduler.Task.run(Task.scala:147)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$5(Executor.scala:716)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:86)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:83)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:97)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:719)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 34 more
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$3(DAGScheduler.scala:3122)
+	at scala.Option.getOrElse(Option.scala:201)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:3122)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:3114)
+	at scala.collection.immutable.List.foreach(List.scala:323)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:3114)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1303)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1303)
+	at scala.Option.foreach(Option.scala:437)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1303)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:3397)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:3328)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:3317)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:50)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:1017)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2496)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2517)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2536)
+	at org.apache.spark.sql.execution.SparkPlan.executeTake(SparkPlan.scala:544)
+	at org.apache.spark.sql.execution.SparkPlan.executeTake(SparkPlan.scala:497)
+	at org.apache.spark.sql.execution.CollectLimitExec.executeCollect(limit.scala:58)
+	at org.apache.spark.sql.classic.Dataset.collectFromPlan(Dataset.scala:2275)
+	at org.apache.spark.sql.classic.Dataset.$anonfun$head$1(Dataset.scala:1401)
+	at org.apache.spark.sql.classic.Dataset.$anonfun$withAction$2(Dataset.scala:2265)
+	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:717)
+	at org.apache.spark.sql.classic.Dataset.$anonfun$withAction$1(Dataset.scala:2263)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$8(SQLExecution.scala:177)
+	at org.apache.spark.sql.execution.SQLExecution$.withSessionTagsApplied(SQLExecution.scala:285)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$7(SQLExecution.scala:139)
+	at org.apache.spark.JobArtifactSet$.withActiveJobArtifactState(JobArtifactSet.scala:94)
+	at org.apache.spark.sql.artifact.ArtifactManager.$anonfun$withResources$1(ArtifactManager.scala:112)
+	at org.apache.spark.sql.artifact.ArtifactManager.withClassLoaderIfNeeded(ArtifactManager.scala:106)
+	at org.apache.spark.sql.artifact.ArtifactManager.withResources(ArtifactManager.scala:111)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$6(SQLExecution.scala:139)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:308)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$1(SQLExecution.scala:138)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId0(SQLExecution.scala:92)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:250)
+	at org.apache.spark.sql.classic.Dataset.withAction(Dataset.scala:2263)
+	at org.apache.spark.sql.classic.Dataset.head(Dataset.scala:1401)
+	at org.apache.spark.sql.Dataset.take(Dataset.scala:2814)
+	at org.apache.spark.sql.classic.Dataset.getRows(Dataset.scala:338)
+	at org.apache.spark.sql.classic.Dataset.showString(Dataset.scala:374)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:76)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.io.IOException: Cannot run program "python3": CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:247)
+	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:154)
+	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:158)
+	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:309)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:72)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:180)
+	at org.apache.spark.scheduler.Task.run(Task.scala:147)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$5(Executor.scala:716)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:86)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:83)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:97)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:719)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	... 1 more
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 34 more
+
+2026-05-02 23:20:13,595 - INFO - Closing down clientserver connection
+2026-05-02 23:23:22,814 - INFO - ETL started
+2026-05-02 23:23:23,158 - INFO - package: mysql.connector.plugins
+2026-05-02 23:23:23,159 - INFO - plugin_name: caching_sha2_password
+2026-05-02 23:23:23,159 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-02 23:23:23,160 - INFO - package: mysql.connector.plugins
+2026-05-02 23:23:23,160 - INFO - plugin_name: mysql_native_password
+2026-05-02 23:23:23,162 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-05-02 23:23:23,174 - INFO - Fetched 22 new records
+2026-05-02 23:23:28,182 - ERROR - ETL failed: An error occurred while calling o64.showString.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 0.0 failed 1 times, most recent failure: Lost task 0.0 in stage 0.0 (TID 0) (host.docker.internal executor driver): java.io.IOException: Cannot run program "python3": CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:247)
+	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:154)
+	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:158)
+	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:309)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:72)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:180)
+	at org.apache.spark.scheduler.Task.run(Task.scala:147)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$5(Executor.scala:716)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:86)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:83)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:97)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:719)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 34 more
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$3(DAGScheduler.scala:3122)
+	at scala.Option.getOrElse(Option.scala:201)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:3122)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:3114)
+	at scala.collection.immutable.List.foreach(List.scala:323)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:3114)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1303)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1303)
+	at scala.Option.foreach(Option.scala:437)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1303)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:3397)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:3328)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:3317)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:50)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:1017)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2496)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2517)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2536)
+	at org.apache.spark.sql.execution.SparkPlan.executeTake(SparkPlan.scala:544)
+	at org.apache.spark.sql.execution.SparkPlan.executeTake(SparkPlan.scala:497)
+	at org.apache.spark.sql.execution.CollectLimitExec.executeCollect(limit.scala:58)
+	at org.apache.spark.sql.classic.Dataset.collectFromPlan(Dataset.scala:2275)
+	at org.apache.spark.sql.classic.Dataset.$anonfun$head$1(Dataset.scala:1401)
+	at org.apache.spark.sql.classic.Dataset.$anonfun$withAction$2(Dataset.scala:2265)
+	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:717)
+	at org.apache.spark.sql.classic.Dataset.$anonfun$withAction$1(Dataset.scala:2263)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$8(SQLExecution.scala:177)
+	at org.apache.spark.sql.execution.SQLExecution$.withSessionTagsApplied(SQLExecution.scala:285)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$7(SQLExecution.scala:139)
+	at org.apache.spark.JobArtifactSet$.withActiveJobArtifactState(JobArtifactSet.scala:94)
+	at org.apache.spark.sql.artifact.ArtifactManager.$anonfun$withResources$1(ArtifactManager.scala:112)
+	at org.apache.spark.sql.artifact.ArtifactManager.withClassLoaderIfNeeded(ArtifactManager.scala:106)
+	at org.apache.spark.sql.artifact.ArtifactManager.withResources(ArtifactManager.scala:111)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$6(SQLExecution.scala:139)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:308)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$1(SQLExecution.scala:138)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId0(SQLExecution.scala:92)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:250)
+	at org.apache.spark.sql.classic.Dataset.withAction(Dataset.scala:2263)
+	at org.apache.spark.sql.classic.Dataset.head(Dataset.scala:1401)
+	at org.apache.spark.sql.Dataset.take(Dataset.scala:2814)
+	at org.apache.spark.sql.classic.Dataset.getRows(Dataset.scala:338)
+	at org.apache.spark.sql.classic.Dataset.showString(Dataset.scala:374)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:76)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.io.IOException: Cannot run program "python3": CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at org.apache.spark.api.python.PythonWorkerFactory.createSimpleWorker(PythonWorkerFactory.scala:247)
+	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:154)
+	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:158)
+	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:309)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:72)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:180)
+	at org.apache.spark.scheduler.Task.run(Task.scala:147)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$5(Executor.scala:716)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:86)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:83)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:97)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:719)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	... 1 more
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 34 more
+
+2026-05-02 23:23:28,376 - INFO - Closing down clientserver connection
+2026-05-02 23:28:56,455 - INFO - ETL started
+2026-05-02 23:28:56,839 - INFO - package: mysql.connector.plugins
+2026-05-02 23:28:56,839 - INFO - plugin_name: caching_sha2_password
+2026-05-02 23:28:56,839 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-02 23:28:56,843 - INFO - package: mysql.connector.plugins
+2026-05-02 23:28:56,843 - INFO - plugin_name: mysql_native_password
+2026-05-02 23:28:56,845 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-05-02 23:28:56,946 - INFO - Fetched 22 new records
+2026-05-02 23:29:07,351 - ERROR - ETL failed: An error occurred while calling o64.showString.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 0.0 failed 1 times, most recent failure: Lost task 0.0 in stage 0.0 (TID 0) (host.docker.internal executor driver): org.apache.spark.SparkException: Python worker exited unexpectedly (crashed). Consider setting 'spark.sql.execution.pyspark.udf.faulthandler.enabled' or'spark.python.worker.faulthandler.enabled' configuration to 'true' for the better Python traceback.
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator$$anonfun$1.applyOrElse(PythonRunner.scala:678)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator$$anonfun$1.applyOrElse(PythonRunner.scala:663)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:1034)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:1014)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:596)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:611)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:593)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:593)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage1.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenEvaluatorFactory$WholeStageCodegenPartitionEvaluator$$anon$1.hasNext(WholeStageCodegenEvaluatorFactory.scala:50)
+	at org.apache.spark.sql.execution.SparkPlan.$anonfun$getByteArrayRdd$1(SparkPlan.scala:402)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:901)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:901)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:180)
+	at org.apache.spark.scheduler.Task.run(Task.scala:147)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$5(Executor.scala:716)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:86)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:83)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:97)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:719)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:1022)
+	... 26 more
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$3(DAGScheduler.scala:3122)
+	at scala.Option.getOrElse(Option.scala:201)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:3122)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:3114)
+	at scala.collection.immutable.List.foreach(List.scala:323)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:3114)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1303)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1303)
+	at scala.Option.foreach(Option.scala:437)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1303)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:3397)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:3328)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:3317)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:50)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:1017)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2496)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2517)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2536)
+	at org.apache.spark.sql.execution.SparkPlan.executeTake(SparkPlan.scala:544)
+	at org.apache.spark.sql.execution.SparkPlan.executeTake(SparkPlan.scala:497)
+	at org.apache.spark.sql.execution.CollectLimitExec.executeCollect(limit.scala:58)
+	at org.apache.spark.sql.classic.Dataset.collectFromPlan(Dataset.scala:2275)
+	at org.apache.spark.sql.classic.Dataset.$anonfun$head$1(Dataset.scala:1401)
+	at org.apache.spark.sql.classic.Dataset.$anonfun$withAction$2(Dataset.scala:2265)
+	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:717)
+	at org.apache.spark.sql.classic.Dataset.$anonfun$withAction$1(Dataset.scala:2263)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$8(SQLExecution.scala:177)
+	at org.apache.spark.sql.execution.SQLExecution$.withSessionTagsApplied(SQLExecution.scala:285)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$7(SQLExecution.scala:139)
+	at org.apache.spark.JobArtifactSet$.withActiveJobArtifactState(JobArtifactSet.scala:94)
+	at org.apache.spark.sql.artifact.ArtifactManager.$anonfun$withResources$1(ArtifactManager.scala:112)
+	at org.apache.spark.sql.artifact.ArtifactManager.withClassLoaderIfNeeded(ArtifactManager.scala:106)
+	at org.apache.spark.sql.artifact.ArtifactManager.withResources(ArtifactManager.scala:111)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$6(SQLExecution.scala:139)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:308)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$1(SQLExecution.scala:138)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId0(SQLExecution.scala:92)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:250)
+	at org.apache.spark.sql.classic.Dataset.withAction(Dataset.scala:2263)
+	at org.apache.spark.sql.classic.Dataset.head(Dataset.scala:1401)
+	at org.apache.spark.sql.Dataset.take(Dataset.scala:2814)
+	at org.apache.spark.sql.classic.Dataset.getRows(Dataset.scala:338)
+	at org.apache.spark.sql.classic.Dataset.showString(Dataset.scala:374)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:76)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: org.apache.spark.SparkException: Python worker exited unexpectedly (crashed). Consider setting 'spark.sql.execution.pyspark.udf.faulthandler.enabled' or'spark.python.worker.faulthandler.enabled' configuration to 'true' for the better Python traceback.
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator$$anonfun$1.applyOrElse(PythonRunner.scala:678)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator$$anonfun$1.applyOrElse(PythonRunner.scala:663)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:1034)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:1014)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:596)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:611)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:593)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:593)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage1.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenEvaluatorFactory$WholeStageCodegenPartitionEvaluator$$anon$1.hasNext(WholeStageCodegenEvaluatorFactory.scala:50)
+	at org.apache.spark.sql.execution.SparkPlan.$anonfun$getByteArrayRdd$1(SparkPlan.scala:402)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:901)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:901)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:180)
+	at org.apache.spark.scheduler.Task.run(Task.scala:147)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$5(Executor.scala:716)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:86)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:83)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:97)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:719)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	... 1 more
+Caused by: java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:1022)
+	... 26 more
+
+2026-05-02 23:29:07,862 - INFO - Closing down clientserver connection
+2026-05-03 14:04:33,530 - INFO - ETL started
+2026-05-03 14:04:34,147 - INFO - package: mysql.connector.plugins
+2026-05-03 14:04:34,148 - INFO - plugin_name: caching_sha2_password
+2026-05-03 14:04:34,148 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-03 14:04:34,149 - INFO - package: mysql.connector.plugins
+2026-05-03 14:04:34,150 - INFO - plugin_name: mysql_native_password
+2026-05-03 14:04:34,153 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-05-03 14:04:34,200 - INFO - Fetched 23 new records
+2026-05-03 14:04:41,526 - ERROR - ETL failed: An error occurred while calling o65.showString.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 0.0 failed 1 times, most recent failure: Lost task 0.0 in stage 0.0 (TID 0) (host.docker.internal executor driver): org.apache.spark.SparkException: Python worker exited unexpectedly (crashed). Consider setting 'spark.sql.execution.pyspark.udf.faulthandler.enabled' or'spark.python.worker.faulthandler.enabled' configuration to 'true' for the better Python traceback.
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator$$anonfun$1.applyOrElse(PythonRunner.scala:678)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator$$anonfun$1.applyOrElse(PythonRunner.scala:663)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:1034)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:1014)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:596)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:611)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:593)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:593)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage1.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenEvaluatorFactory$WholeStageCodegenPartitionEvaluator$$anon$1.hasNext(WholeStageCodegenEvaluatorFactory.scala:50)
+	at org.apache.spark.sql.execution.SparkPlan.$anonfun$getByteArrayRdd$1(SparkPlan.scala:402)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:901)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:901)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:180)
+	at org.apache.spark.scheduler.Task.run(Task.scala:147)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$5(Executor.scala:716)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:86)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:83)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:97)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:719)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:1022)
+	... 26 more
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$3(DAGScheduler.scala:3122)
+	at scala.Option.getOrElse(Option.scala:201)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:3122)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:3114)
+	at scala.collection.immutable.List.foreach(List.scala:323)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:3114)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1303)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1303)
+	at scala.Option.foreach(Option.scala:437)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1303)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:3397)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:3328)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:3317)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:50)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:1017)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2496)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2517)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2536)
+	at org.apache.spark.sql.execution.SparkPlan.executeTake(SparkPlan.scala:544)
+	at org.apache.spark.sql.execution.SparkPlan.executeTake(SparkPlan.scala:497)
+	at org.apache.spark.sql.execution.CollectLimitExec.executeCollect(limit.scala:58)
+	at org.apache.spark.sql.classic.Dataset.collectFromPlan(Dataset.scala:2275)
+	at org.apache.spark.sql.classic.Dataset.$anonfun$head$1(Dataset.scala:1401)
+	at org.apache.spark.sql.classic.Dataset.$anonfun$withAction$2(Dataset.scala:2265)
+	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:717)
+	at org.apache.spark.sql.classic.Dataset.$anonfun$withAction$1(Dataset.scala:2263)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$8(SQLExecution.scala:177)
+	at org.apache.spark.sql.execution.SQLExecution$.withSessionTagsApplied(SQLExecution.scala:285)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$7(SQLExecution.scala:139)
+	at org.apache.spark.JobArtifactSet$.withActiveJobArtifactState(JobArtifactSet.scala:94)
+	at org.apache.spark.sql.artifact.ArtifactManager.$anonfun$withResources$1(ArtifactManager.scala:112)
+	at org.apache.spark.sql.artifact.ArtifactManager.withClassLoaderIfNeeded(ArtifactManager.scala:106)
+	at org.apache.spark.sql.artifact.ArtifactManager.withResources(ArtifactManager.scala:111)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$6(SQLExecution.scala:139)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:308)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$1(SQLExecution.scala:138)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId0(SQLExecution.scala:92)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:250)
+	at org.apache.spark.sql.classic.Dataset.withAction(Dataset.scala:2263)
+	at org.apache.spark.sql.classic.Dataset.head(Dataset.scala:1401)
+	at org.apache.spark.sql.Dataset.take(Dataset.scala:2814)
+	at org.apache.spark.sql.classic.Dataset.getRows(Dataset.scala:338)
+	at org.apache.spark.sql.classic.Dataset.showString(Dataset.scala:374)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:76)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: org.apache.spark.SparkException: Python worker exited unexpectedly (crashed). Consider setting 'spark.sql.execution.pyspark.udf.faulthandler.enabled' or'spark.python.worker.faulthandler.enabled' configuration to 'true' for the better Python traceback.
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator$$anonfun$1.applyOrElse(PythonRunner.scala:678)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator$$anonfun$1.applyOrElse(PythonRunner.scala:663)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:1034)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:1014)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:596)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:611)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:593)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:593)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage1.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenEvaluatorFactory$WholeStageCodegenPartitionEvaluator$$anon$1.hasNext(WholeStageCodegenEvaluatorFactory.scala:50)
+	at org.apache.spark.sql.execution.SparkPlan.$anonfun$getByteArrayRdd$1(SparkPlan.scala:402)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:901)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:901)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:180)
+	at org.apache.spark.scheduler.Task.run(Task.scala:147)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$5(Executor.scala:716)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:86)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:83)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:97)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:719)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	... 1 more
+Caused by: java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:1022)
+	... 26 more
+
+2026-05-03 14:04:41,839 - INFO - Closing down clientserver connection
+2026-05-03 14:11:20,911 - INFO - package: mysql.connector.plugins
+2026-05-03 14:11:20,942 - INFO - plugin_name: caching_sha2_password
+2026-05-03 14:11:20,944 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-03 14:11:20,946 - INFO - package: mysql.connector.plugins
+2026-05-03 14:11:20,946 - INFO - plugin_name: mysql_native_password
+2026-05-03 14:11:20,949 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-05-03 14:11:32,228 - INFO - Closing down clientserver connection
+2026-05-03 14:14:40,270 - INFO - package: mysql.connector.plugins
+2026-05-03 14:14:40,272 - INFO - plugin_name: caching_sha2_password
+2026-05-03 14:14:40,272 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-03 14:14:40,273 - INFO - package: mysql.connector.plugins
+2026-05-03 14:14:40,274 - INFO - plugin_name: mysql_native_password
+2026-05-03 14:14:40,275 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-05-03 14:14:49,092 - INFO - Closing down clientserver connection
+2026-05-03 14:17:29,644 - INFO - package: mysql.connector.plugins
+2026-05-03 14:17:29,645 - INFO - plugin_name: caching_sha2_password
+2026-05-03 14:17:29,645 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-03 14:17:29,646 - INFO - package: mysql.connector.plugins
+2026-05-03 14:17:29,646 - INFO - plugin_name: mysql_native_password
+2026-05-03 14:17:29,647 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-05-03 14:17:38,173 - INFO - Closing down clientserver connection
+2026-05-03 14:35:24,346 - INFO - ETL started
+2026-05-03 14:35:25,101 - INFO - package: mysql.connector.plugins
+2026-05-03 14:35:25,101 - INFO - plugin_name: caching_sha2_password
+2026-05-03 14:35:25,102 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-03 14:35:25,105 - INFO - package: mysql.connector.plugins
+2026-05-03 14:35:25,105 - INFO - plugin_name: mysql_native_password
+2026-05-03 14:35:25,108 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-05-03 14:35:25,593 - INFO - Processed 24 records successfully
+2026-05-03 14:36:25,599 - INFO - ETL started
+2026-05-03 14:37:25,966 - INFO - ETL started
+2026-05-03 14:38:26,464 - INFO - ETL started
+2026-05-03 14:39:26,863 - INFO - ETL started
+2026-05-03 14:40:27,303 - INFO - ETL started
+2026-05-03 14:43:11,845 - INFO - ETL started
+2026-05-03 14:44:12,191 - INFO - ETL started
+2026-05-03 14:45:12,520 - INFO - ETL started
+2026-05-03 14:46:12,968 - INFO - ETL started
+2026-05-03 14:47:13,434 - INFO - ETL started
+2026-05-03 14:48:13,592 - INFO - ETL started
+2026-05-03 15:12:51,322 - INFO - ETL started
+2026-05-03 15:13:51,866 - INFO - ETL started
+2026-05-03 15:14:57,098 - INFO - ETL started
+2026-05-03 15:15:57,340 - INFO - ETL started
+2026-05-03 15:16:57,499 - INFO - ETL started
+2026-05-03 15:17:57,661 - INFO - ETL started
+2026-05-03 15:18:57,799 - INFO - ETL started
+2026-05-03 17:13:27,697 - INFO - ETL started
+2026-05-03 17:13:28,104 - INFO - package: mysql.connector.plugins
+2026-05-03 17:13:28,104 - INFO - plugin_name: caching_sha2_password
+2026-05-03 17:13:28,104 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-03 17:13:28,107 - INFO - package: mysql.connector.plugins
+2026-05-03 17:13:28,107 - INFO - plugin_name: mysql_native_password
+2026-05-03 17:13:28,108 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-05-03 17:14:28,194 - INFO - ETL started
+2026-05-03 17:24:29,363 - INFO - ETL started
+2026-05-03 17:24:29,645 - INFO - package: mysql.connector.plugins
+2026-05-03 17:24:29,646 - INFO - plugin_name: caching_sha2_password
+2026-05-03 17:24:29,646 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-03 17:24:29,646 - INFO - package: mysql.connector.plugins
+2026-05-03 17:24:29,646 - INFO - plugin_name: mysql_native_password
+2026-05-03 17:24:29,647 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-05-03 17:24:31,539 - ERROR - ETL failed: 403 POST https://bigquery.googleapis.com/bigquery/v2/projects/delivery-analytics-gcp/datasets/delivery_dataset/tables/fact_deliveries_v2/insertAll?prettyPrint=false: Access Denied: BigQuery BigQuery: Streaming insert is not allowed in the free tier
+2026-05-03 17:25:31,541 - INFO - ETL started
+2026-05-03 17:25:31,941 - ERROR - ETL failed: 403 POST https://bigquery.googleapis.com/bigquery/v2/projects/delivery-analytics-gcp/datasets/delivery_dataset/tables/fact_deliveries_v2/insertAll?prettyPrint=false: Access Denied: BigQuery BigQuery: Streaming insert is not allowed in the free tier
+2026-05-03 17:26:31,943 - INFO - ETL started
+2026-05-03 17:26:32,243 - ERROR - ETL failed: 403 POST https://bigquery.googleapis.com/bigquery/v2/projects/delivery-analytics-gcp/datasets/delivery_dataset/tables/fact_deliveries_v2/insertAll?prettyPrint=false: Access Denied: BigQuery BigQuery: Streaming insert is not allowed in the free tier
+2026-05-03 17:27:32,245 - INFO - ETL started
+2026-05-03 17:27:32,565 - ERROR - ETL failed: 403 POST https://bigquery.googleapis.com/bigquery/v2/projects/delivery-analytics-gcp/datasets/delivery_dataset/tables/fact_deliveries_v2/insertAll?prettyPrint=false: Access Denied: BigQuery BigQuery: Streaming insert is not allowed in the free tier
+2026-05-03 17:29:13,832 - INFO - ETL started
+2026-05-03 17:29:13,960 - INFO - package: mysql.connector.plugins
+2026-05-03 17:29:13,960 - INFO - plugin_name: caching_sha2_password
+2026-05-03 17:29:13,960 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-03 17:29:13,961 - INFO - package: mysql.connector.plugins
+2026-05-03 17:29:13,961 - INFO - plugin_name: mysql_native_password
+2026-05-03 17:29:13,962 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-05-03 17:29:14,095 - ERROR - ETL failed: This method requires pyarrow to be installed
+2026-05-03 17:30:14,098 - INFO - ETL started
+2026-05-03 17:30:14,220 - ERROR - ETL failed: This method requires pyarrow to be installed
+2026-05-03 17:32:48,777 - INFO - ETL started
+2026-05-03 17:32:48,888 - INFO - package: mysql.connector.plugins
+2026-05-03 17:32:48,888 - INFO - plugin_name: caching_sha2_password
+2026-05-03 17:32:48,888 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-03 17:32:48,889 - INFO - package: mysql.connector.plugins
+2026-05-03 17:32:48,889 - INFO - plugin_name: mysql_native_password
+2026-05-03 17:32:48,889 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-05-03 17:32:53,681 - INFO - Processed 4 records successfully
+2026-05-03 17:35:20,096 - INFO - ETL started
+2026-05-03 17:35:20,224 - INFO - package: mysql.connector.plugins
+2026-05-03 17:35:20,225 - INFO - plugin_name: caching_sha2_password
+2026-05-03 17:35:20,225 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-03 17:35:20,225 - INFO - package: mysql.connector.plugins
+2026-05-03 17:35:20,225 - INFO - plugin_name: mysql_native_password
+2026-05-03 17:35:20,226 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-05-03 17:35:21,573 - ERROR - ETL failed: Error converting Pandas column with name: "delivery_date" and datatype: "object" to an appropriate pyarrow datatype: Array, ListArray, or StructArray
+2026-05-03 17:36:21,576 - INFO - ETL started
+2026-05-03 17:36:22,353 - ERROR - ETL failed: Error converting Pandas column with name: "delivery_date" and datatype: "object" to an appropriate pyarrow datatype: Array, ListArray, or StructArray
+2026-05-03 17:37:22,358 - INFO - ETL started
+2026-05-03 17:37:22,825 - ERROR - ETL failed: Error converting Pandas column with name: "delivery_date" and datatype: "object" to an appropriate pyarrow datatype: Array, ListArray, or StructArray
+2026-05-03 17:38:19,414 - INFO - ETL started
+2026-05-03 17:38:19,628 - INFO - package: mysql.connector.plugins
+2026-05-03 17:38:19,628 - INFO - plugin_name: caching_sha2_password
+2026-05-03 17:38:19,628 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-03 17:38:19,629 - INFO - package: mysql.connector.plugins
+2026-05-03 17:38:19,629 - INFO - plugin_name: mysql_native_password
+2026-05-03 17:38:19,630 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-05-03 17:38:24,840 - INFO - Processed 2 records successfully
+2026-05-03 17:39:24,841 - INFO - ETL started
+2026-05-03 17:40:25,256 - INFO - ETL started
+2026-05-03 17:41:25,685 - INFO - ETL started
