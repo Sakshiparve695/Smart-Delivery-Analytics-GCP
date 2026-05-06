@@ -111,7 +111,6 @@ Airflow (Scheduling & Orchestration via Docker)
 
 ## 📸 Screenshots
 
-(Add your screenshots here)
 
 ```
 ![Airflow](screenshots/airflow.png)
