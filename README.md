@@ -1,36 +1,40 @@
-# 🚚 Smart Delivery Analytics Pipeline (GCP + Airflow + ETL)
+# 🚚 Smart Delivery Analytics Platform
 
-## 🚀 Overview
-
-This project implements an end-to-end delivery analytics pipeline using Python, MySQL, Google BigQuery, and Apache Airflow.
-
-The system ingests delivery data through REST APIs, processes it using automated ETL workflows, and enables analytical insights on delivery performance, operational efficiency, and route optimization.
-
-The pipeline follows a layered architecture (Raw → Processed → Fact) and is orchestrated using Dockerized Apache Airflow workflows.
+### End-to-End Data Engineering Project using FastAPI, MySQL, BigQuery, Apache Airflow & Power BI
 
 ---
 
-# 🎯 Problem Statement
+## 🚀 Project Overview
 
-Logistics systems generate large volumes of delivery data, but most systems lack structured pipelines for analytics and operational monitoring.
+Smart Delivery Analytics Platform is an end-to-end data engineering project that simulates a modern logistics and delivery management system.
 
-This project solves that by:
+The platform ingests delivery requests through REST APIs, stores raw operational data in MySQL, processes records using an automated ETL pipeline, loads analytical data into Google BigQuery, and visualizes business insights through interactive Power BI dashboards.
 
-- Building a layered ETL pipeline
-- Automating delivery data processing
-- Enabling cloud-based analytics using BigQuery
-- Supporting route optimization workflows
-- Creating production-style orchestration using Airflow
+The project demonstrates real-world data engineering concepts including data ingestion, ETL processing, cloud warehousing, orchestration, analytics, and reporting.
 
 ---
 
-# 🏗️ System Architecture
+# 🎯 Business Problem
+
+Logistics companies generate thousands of delivery events every day. Without a structured analytics platform, it becomes difficult to:
+
+* Monitor delivery performance
+* Track delayed deliveries
+* Evaluate agent productivity
+* Analyze operational efficiency
+* Support business decision-making
+
+This project addresses these challenges by building a complete analytics pipeline from data ingestion to business reporting.
+
+---
+
+# 🏗️ End-to-End Architecture
 
 ```text
-Client / API Requests
+Client Applications
         │
         ▼
-Flask REST API Layer
+FastAPI REST APIs
         │
         ▼
 MySQL Raw Layer
@@ -39,146 +43,270 @@ MySQL Raw Layer
         ▼
 Python ETL Pipeline
         │
- ┌───────────────┐
- ▼               ▼
-Processed Layer  Fact Layer
-(processed_      (fact_
-deliveries)      deliveries)
+        ▼
+Processed Layer
+(processed_deliveries)
+        │
+        ▼
+Fact Layer
+(fact_deliveries)
         │
         ▼
 Google BigQuery
-(Analytics Warehouse)
+(Cloud Data Warehouse)
         │
         ▼
-Apache Airflow
-(Dockerized Scheduling & Orchestration)
+Power BI Dashboard
+(Business Analytics)
 ```
 
 ---
 
-# ⚙️ Tech Stack
+# ⚙️ Technology Stack
 
-| Category | Technologies |
-|---|---|
-| Backend | Python, Flask |
-| Database | MySQL |
-| ETL | Python, Pandas |
-| Cloud | Google BigQuery |
-| Orchestration | Apache Airflow, Docker |
-| APIs | REST APIs |
-| Analytics | SQL |
-| DevOps | Git, GitHub |
-
----
-
-# 🔄 ETL Workflow
-
-1. Delivery data is ingested through REST APIs
-2. Data is stored in the raw layer (`raw_deliveries`)
-3. ETL pipeline extracts and transforms records
-4. Processed data is loaded into:
-   - `processed_deliveries`
-   - `fact_deliveries`
-5. Analytical data is pushed into Google BigQuery
-6. Airflow DAG automates scheduled execution
+| Category         | Technology      |
+| ---------------- | --------------- |
+| Programming      | Python          |
+| API Layer        | FastAPI         |
+| Database         | MySQL           |
+| ETL              | Python, Pandas  |
+| Cloud Warehouse  | Google BigQuery |
+| Orchestration    | Apache Airflow  |
+| Containerization | Docker          |
+| Analytics        | SQL             |
+| Visualization    | Power BI        |
+| Version Control  | Git, GitHub     |
 
 ---
 
-# ⚡ Key Features
+# 🔄 Data Pipeline Workflow
 
-- REST API-based data ingestion
-- Automated ETL processing using Python
-- Incremental batch processing using processed flags
-- Delivery data transformation and enrichment
-- Google BigQuery cloud analytics integration
-- Apache Airflow DAG orchestration using Docker
-- Delivery route optimization using Dijkstra’s Algorithm
-- Logging and monitoring support
-- Layered data architecture (Raw → Processed → Fact)
+### 1. Data Ingestion
+
+Delivery requests are received through FastAPI REST endpoints.
+
+Example data:
+
+```json
+{
+  "order_name": "Order_1001",
+  "source": 3,
+  "destination": 8
+}
+```
+
+---
+
+### 2. Raw Layer
+
+Incoming records are stored in:
+
+```sql
+raw_deliveries
+```
+
+This layer preserves original operational data.
+
+---
+
+### 3. ETL Processing
+
+The ETL pipeline:
+
+* Extracts unprocessed records
+* Calculates delivery metrics
+* Detects delayed deliveries
+* Performs data transformations
+* Generates analytical datasets
+
+---
+
+### 4. Processed Layer
+
+Processed records are stored in:
+
+```sql
+processed_deliveries
+```
+
+with cleaned and transformed information.
+
+---
+
+### 5. Fact Layer
+
+Business-ready analytics data is stored in:
+
+```sql
+fact_deliveries
+```
+
+containing:
+
+* Agent information
+* Delivery duration
+* Distance
+* Delay status
+* Delivery dates
+
+---
+
+### 6. BigQuery Analytics Warehouse
+
+Fact data is loaded into Google BigQuery for scalable analytics and cloud-based reporting.
+
+Benefits:
+
+* Fast SQL analytics
+* Cloud scalability
+* Analytical reporting
+* Integration with BI tools
+
+---
+
+### 7. Power BI Dashboard
+
+Power BI connects directly to BigQuery and provides interactive business dashboards.
+
+---
+
+# 📊 Power BI Dashboard
+
+The dashboard provides operational and performance insights through:
+
+### KPIs
+
+* Total Deliveries
+* Delayed Deliveries
+* Average Delivery Time
+* Total Distance Covered
+
+### Visualizations
+
+* Deliveries by Agent
+* Average Delivery Time by Agent
+* Delivery Status Distribution
+
+### Business Insights
+
+* Agent productivity tracking
+* Delay monitoring
+* Operational efficiency analysis
+* Delivery performance measurement
 
 ---
 
 # 🔌 API Endpoints
 
-| Method | Endpoint | Description |
-|---|---|---|
-| POST | `/add-delivery` | Add delivery into raw layer |
-| POST | `/optimize-route` | Compute optimal delivery route |
-| GET | `/deliveries` | Fetch delivery records |
-| POST | `/update-status` | Update delivery status |
+| Method | Endpoint        | Description               |
+| ------ | --------------- | ------------------------- |
+| POST   | /add-delivery   | Add delivery record       |
+| POST   | /optimize-route | Calculate optimal route   |
+| GET    | /deliveries     | Retrieve delivery records |
+| POST   | /update-status  | Update delivery status    |
 
 ---
 
-# 📊 Analytics & Insights
+# 🧠 Route Optimization
 
-The system enables analysis of:
+The project includes route optimization functionality using:
 
-- Average delivery duration
-- Delay percentage
-- Delivery performance trends
-- Agent performance tracking
-- Route optimization efficiency
-- Delivery status monitoring
+### Dijkstra's Algorithm
 
----
+Features:
 
-# ☁️ BigQuery Integration
-
-- Integrated Google BigQuery for cloud analytics
-- Loaded processed delivery data into analytical warehouse tables
-- Used partitioned tables for optimized analytical querying
-- Enabled SQL-based analysis on delivery datasets
+* Shortest path computation
+* Distance optimization
+* Efficient delivery routing
+* Reduced transportation cost
 
 ---
 
-# 🔄 Airflow Orchestration
+# 🔄 Apache Airflow Orchestration
 
-- Implemented Apache Airflow DAG for ETL scheduling
-- Automated pipeline execution using Dockerized Airflow containers
-- Managed recurring ETL workflows and monitoring
+Apache Airflow automates the ETL workflow.
+
+Capabilities:
+
+* Scheduled ETL execution
+* Workflow monitoring
+* Task orchestration
+* Pipeline automation
+
+Airflow runs using Docker containers for simplified deployment and management.
+
+---
+
+# 📈 Analytics Supported
+
+The platform enables analysis of:
+
+* Delivery volume
+* Delay percentage
+* Agent performance
+* Average delivery duration
+* Distance travelled
+* Delivery trends
+* Operational KPIs
 
 ---
 
 # 📸 Project Screenshots
 
-## 🔄 Airflow DAG Orchestration
+## Power BI Dashboard
+
+![Power BI Dashboard](screenshots/dashboard_overview.png)
+
+---
+
+## Apache Airflow DAG
 
 ![Airflow DAG](screenshots/Docker-Airflow.png)
 
 ---
 
-## ⚙️ ETL Pipeline Execution
+## ETL Pipeline Execution
 
 ![ETL Execution](screenshots/ETL_status.png)
 
 ---
 
-## ☁️ BigQuery Analytics Layer
+## Google BigQuery Analytics Layer
 
 ![BigQuery](screenshots/bigquery-fact-deliveries.png)
 
 ---
 
-## 🗄️ Processed Deliveries Table
+## Fact Deliveries Table
 
-![Processed Layer](screenshots/Smart_route_system_Processed_DEliveries.png)
-
----
-
-## 📊 Fact Deliveries Analytics Table
-
-![Fact Table](screenshots/Smart_route_system_Fact_deliveries.png)
+![Fact Deliveries](screenshots/Smart_route_system_Fact_deliveries.png)
 
 ---
 
-# ⚠️ Engineering Challenges Solved
+# ⚡ Key Features
 
-- Implemented incremental ETL processing using processed flags
-- Debugged schema mismatch and BigQuery loading issues
-- Added ETL logging and monitoring support
-- Optimized batch loading into analytical tables
-- Integrated cloud warehouse partitioned tables using BigQuery
-- Automated DAG scheduling using Airflow Docker containers
+* FastAPI-based REST APIs
+* Layered Data Architecture
+* Automated ETL Processing
+* Incremental Data Loading
+* BigQuery Cloud Analytics
+* Apache Airflow Orchestration
+* Dockerized Deployment
+* Route Optimization using Dijkstra's Algorithm
+* Power BI Dashboarding
+* Delivery Performance Analytics
+
+---
+
+# 🧩 Engineering Challenges Solved
+
+* Built incremental ETL processing using processed flags
+* Integrated MySQL with Google BigQuery
+* Automated cloud analytics loading
+* Implemented batch processing workflows
+* Debugged schema and authentication issues
+* Designed layered warehouse architecture
+* Connected Power BI directly to BigQuery
 
 ---
 
@@ -189,8 +317,13 @@ Smart_route_system/
 │
 ├── API_Server.py
 ├── etl.py
+├── generate_data.py
 ├── requirements.txt
 ├── docker-compose.yml
+│
+├── Power_BI/
+│   └── Smart_Delivery_Dashboard.pbix
+│
 ├── dags/
 ├── screenshots/
 ├── etl.log
@@ -201,53 +334,41 @@ Smart_route_system/
 
 # 🚀 Setup Instructions
 
-## 1️⃣ Clone Repository
+## Clone Repository
 
 ```bash
 git clone https://github.com/Sakshiparve695/Smart-Delivery-Analytics-GCP.git
 cd Smart-Delivery-Analytics-GCP
 ```
 
----
-
-## 2️⃣ Install Dependencies
+## Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
-
-## 3️⃣ Configure Environment Variables
-
-Create a `.env` file:
+## Configure Environment Variables
 
 ```env
 DB_HOST=localhost
-DB_USER=your_user
+DB_USER=your_username
 DB_PASSWORD=your_password
-DB_NAME=your_database
+DB_NAME=smart_delivery
 ```
 
----
-
-## 4️⃣ Run Flask API
+## Run FastAPI Application
 
 ```bash
 python API_Server.py
 ```
 
----
-
-## 5️⃣ Run ETL Pipeline
+## Run ETL Pipeline
 
 ```bash
 python etl.py
 ```
 
----
-
-## 6️⃣ Start Airflow (Docker)
+## Start Airflow
 
 ```bash
 docker-compose up
@@ -255,18 +376,19 @@ docker-compose up
 
 ---
 
-# 🚀 Future Improvements
+# 🚀 Future Enhancements
 
-- Real-time streaming using Kafka
-- CI/CD pipeline integration
-- Dashboard visualization using Power BI / Looker Studio
-- Data validation framework
-- Real-time monitoring and alerting
+* Real-time streaming using Apache Kafka
+* CI/CD pipeline automation
+* Data quality validation framework
+* Monitoring and alerting
+* Real-time analytics dashboards
+* Azure Data Factory integration
 
 ---
 
 # 👩‍💻 Author
 
-Sakshi Parve
+**Sakshi Parve**
 
-```
+Aspiring Data Engineer | Python | SQL | BigQuery | Airflow | Power BI
