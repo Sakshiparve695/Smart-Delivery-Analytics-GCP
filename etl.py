@@ -6,6 +6,7 @@ from google.cloud import bigquery
 import pandas as pd
 from dotenv import load_dotenv
 import os
+import random
 
 load_dotenv()
 
@@ -81,9 +82,11 @@ def run_etl():
             print("PROCESSING:", order_name, delivery_duration, is_delayed)
 
             # -------- ADD TO BIGQUERY BATCH --------
+            agent_id = random.randint(101, 110)
+
             bq_batch.append({
                 "id": raw_id,
-                "agent_id": 1,
+                "agent_id": agent_id,
                 "delivery_duration": delivery_duration,
                 "distance": float(distance),
                 "is_delayed": is_delayed,
@@ -117,7 +120,7 @@ def run_etl():
                 INSERT INTO fact_deliveries 
                 (agent_id, delivery_duration, distance, is_delayed, delivery_date)
                 VALUES (%s, %s, %s, %s, %s)
-            """, (1, delivery_duration, distance, is_delayed, delivery_date))
+            """, (agent_id, delivery_duration, distance, is_delayed, delivery_date))
 
             # -------- MARK PROCESSED --------
             cursor.execute("""
@@ -140,8 +143,8 @@ def run_etl():
         print(" ERROR:", str(e))
 
 # ---------------- AUTO RUN ----------------
-#if __name__ == "__main__":
+if __name__ == "__main__":
     #while True:
-        #run_etl()
+        run_etl()
         #print(" Waiting 60 seconds...\n")
         #time.sleep(60)
