@@ -255,7 +255,7 @@ The platform enables analysis of:
 
 ## Power BI Dashboard
 
-![Power BI Dashboard](screenshots/dashboard_overview.png)
+![Power BI Dashboard](Power_BI_Dashboard.png)
 
 ---
 
