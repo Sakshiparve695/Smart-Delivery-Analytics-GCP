@@ -155,20 +155,7 @@ containing:
 * Delivery dates
 
 ---
-
-### 6. BigQuery Analytics Warehouse
-
-Fact data is loaded into Google BigQuery for scalable analytics and cloud-based reporting.
-
-Benefits:
-
-* Fast SQL analytics
-* Cloud scalability
-* Analytical reporting
-* Integration with BI tools
-
----
-### 7. PySpark Analytics Layer
+### 6. PySpark Analytics Layer
 
 To enhance analytical reporting, a PySpark-based analytics layer was implemented on top of the delivery fact table.
 
@@ -198,6 +185,18 @@ agent_performance
 ```
 
 which is published to Google BigQuery for reporting and dashboarding.
+---
+### 7. BigQuery Analytics Warehouse
+
+Fact data is loaded into Google BigQuery for scalable analytics and cloud-based reporting.
+
+Benefits:
+
+* Fast SQL analytics
+* Cloud scalability
+* Analytical reporting
+* Integration with BI tools
+
 ---
 
 ### 8. Power BI Dashboard
@@ -347,6 +346,9 @@ The platform enables analysis of:
 * Implemented batch processing workflows
 * Debugged schema and authentication issues
 * Designed layered warehouse architecture
+* Built PySpark-based analytics marts from fact tables
+* Implemented Spark aggregations and window functions for agent performance ranking
+* Published PySpark-generated analytics datasets to Google BigQuery
 * Connected Power BI directly to BigQuery
 
 ---
@@ -433,4 +435,4 @@ docker-compose up
 
 **Sakshi Parve**
 
-Aspiring Data Engineer | Python | SQL | BigQuery | Airflow | Power BI
+Aspiring Data Engineer | Python | SQL | PySpark | BigQuery | Airflow | Power BI
