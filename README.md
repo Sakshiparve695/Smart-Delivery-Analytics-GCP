@@ -1,6 +1,6 @@
 # 🚚 Smart Delivery Analytics Platform
 
-### End-to-End Data Engineering Project using FastAPI, MySQL, BigQuery, Apache Airflow & Power BI
+### End-to-End Data Engineering Project using FastAPI, MySQL, BigQuery, PySpark, Apache Airflow & Power BI
 
 ---
 
@@ -52,6 +52,10 @@ Fact Layer
 (fact_deliveries)
         │
         ▼
+PySpark Analytics Layer
+(agent_performance)
+        │
+        ▼
 Google BigQuery
 (Cloud Data Warehouse)
         │
@@ -64,18 +68,19 @@ Power BI Dashboard
 
 # ⚙️ Technology Stack
 
-| Category         | Technology      |
-| ---------------- | --------------- |
-| Programming      | Python          |
-| API Layer        | FastAPI         |
-| Database         | MySQL           |
-| ETL              | Python, Pandas  |
-| Cloud Warehouse  | Google BigQuery |
-| Orchestration    | Apache Airflow  |
-| Containerization | Docker          |
-| Analytics        | SQL             |
-| Visualization    | Power BI        |
-| Version Control  | Git, GitHub     |
+| Category | Technology |
+|-----------|------------|
+| Programming | Python |
+| API Layer | FastAPI |
+| Database | MySQL |
+| ETL & Processing | Python, Pandas, PySpark |
+| Cloud Warehouse | Google BigQuery |
+| Orchestration | Apache Airflow |
+| Containerization | Docker |
+| Analytics Engineering | PySpark, Window Functions |
+| Analytics | SQL |
+| Visualization | Power BI |
+| Version Control | Git, GitHub |
 
 ---
 
@@ -163,8 +168,39 @@ Benefits:
 * Integration with BI tools
 
 ---
+### 7. PySpark Analytics Layer
 
-### 7. Power BI Dashboard
+To enhance analytical reporting, a PySpark-based analytics layer was implemented on top of the delivery fact table.
+
+### PySpark Features Implemented
+
+* DataFrame Transformations
+* Aggregations using groupBy()
+* Window Functions (RANK, ROW_NUMBER)
+* Agent Performance Analytics Mart Generation
+
+### Agent Performance KPIs
+
+The analytics layer generates:
+
+* Total Deliveries per Agent
+* Average Delivery Time
+* Total Distance Covered
+* Delay Rate Percentage
+* Agent Performance Ranking
+
+### Output Dataset
+
+PySpark generates an analytics-ready dataset:
+
+```sql
+agent_performance
+```
+
+which is published to Google BigQuery for reporting and dashboarding.
+---
+
+### 8. Power BI Dashboard
 
 Power BI connects directly to BigQuery and provides interactive business dashboards.
 
@@ -247,6 +283,8 @@ The platform enables analysis of:
 * Average delivery duration
 * Distance travelled
 * Delivery trends
+* Agent ranking analytics
+* Performance leaderboard generation
 * Operational KPIs
 
 ---
@@ -293,6 +331,9 @@ The platform enables analysis of:
 * Apache Airflow Orchestration
 * Dockerized Deployment
 * Route Optimization using Dijkstra's Algorithm
+* PySpark Analytics Layer
+* Agent Performance Analytics Mart
+* Window Functions (RANK, ROW_NUMBER)
 * Power BI Dashboarding
 * Delivery Performance Analytics
 
@@ -320,6 +361,7 @@ Smart_route_system/
 ├── generate_data.py
 ├── requirements.txt
 ├── docker-compose.yml
+├── Smart_Delivery_PySpark_Analytics.ipynb
 │
 ├── Power_BI/
 │   └── Smart_Delivery_Dashboard.pbix
@@ -383,7 +425,7 @@ docker-compose up
 * Data quality validation framework
 * Monitoring and alerting
 * Real-time analytics dashboards
-* Azure Data Factory integration
+* Microsoft Fabric Lakehouse integration
 
 ---
 
