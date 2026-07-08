@@ -13,6 +13,7 @@ app = Flask(__name__)
 def connect_db():
     return mysql.connector.connect(
         host=os.getenv("DB_HOST"),
+        port=os.getenv("DB_PORT"),
         user=os.getenv("DB_USER"),
         password=os.getenv("DB_PASSWORD"),
         database=os.getenv("DB_NAME")
@@ -24,7 +25,7 @@ def load_graph():
     conn = connect_db()
     cursor = conn.cursor()
 
-    cursor.execute("SELECT source_location, destination_location, distance, traffic_level FROM roads")
+    cursor.execute("SELECT source, destination, distance, traffic_level FROM roads")
 
     graph = {}
 
@@ -100,7 +101,7 @@ def optimize_route():
 
     try:
         graph = load_graph()
-        path, distance = dijkstra(graph, int(start), int(end))
+        path, distance = dijkstra(graph, start, end)
 
         return jsonify({
             "optimal_route": path,
