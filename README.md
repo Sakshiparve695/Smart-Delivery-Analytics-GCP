@@ -1,5 +1,5 @@
 # 🚚 Smart Delivery Analytics Platform
-### End-to-End Cloud Data Engineering Solution using FastAPI, Azure MySQL, Apache Airflow, Google BigQuery, PySpark & Power BI
+### End-to-End Cloud Data Engineering Solution using Flask REST API, Azure MySQL, Apache Airflow, Google BigQuery, PySpark & Power BI
 
 
 ---
